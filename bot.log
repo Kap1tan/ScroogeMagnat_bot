@@ -1,0 +1,367 @@
+2025-04-03 23:41:34,825 - root - INFO - Бот запущен
+2025-04-03 23:41:34,825 - aiogram.dispatcher - INFO - Start polling
+2025-04-03 23:41:38,513 - aiogram.dispatcher - INFO - Run polling for bot @ScroogeMagnat_bot id=8156560781 - 'СКРУДЖ МАГНАТ | STARS'
+2025-04-03 23:41:44,513 - aiogram.event - INFO - Update id=837824845 is handled. Duration 702 ms by bot id=8156560781
+2025-04-03 23:42:00,238 - aiogram.event - INFO - Update id=837824846 is handled. Duration 437 ms by bot id=8156560781
+2025-04-03 23:43:11,627 - aiogram.event - INFO - Update id=837824847 is not handled. Duration 0 ms by bot id=8156560781
+2025-04-03 23:43:11,627 - aiogram.event - ERROR - Cause exception while process update id=837824847 by bot id=8156560781
+NameError: name 'get_invite_word' is not defined
+Traceback (most recent call last):
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\handlers\start.py", line 235, in callback_my_stars
+    f"Приглашено друзей: <b>{referrals_count} {get_invite_word(referrals_count)}</b>\n\n"
+                                               ^^^^^^^^^^^^^^^
+NameError: name 'get_invite_word' is not defined
+2025-04-03 23:45:55,510 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-03 23:45:55,778 - aiogram.dispatcher - INFO - Polling stopped for bot @ScroogeMagnat_bot id=8156560781 - 'СКРУДЖ МАГНАТ | STARS'
+2025-04-03 23:45:59,554 - root - INFO - Бот запущен
+2025-04-03 23:45:59,554 - aiogram.dispatcher - INFO - Start polling
+2025-04-03 23:45:59,972 - aiogram.dispatcher - INFO - Run polling for bot @ScroogeMagnat_bot id=8156560781 - 'СКРУДЖ МАГНАТ | STARS'
+2025-04-03 23:47:21,280 - aiogram.event - INFO - Update id=837824848 is handled. Duration 811 ms by bot id=8156560781
+2025-04-03 23:47:29,657 - aiogram.event - INFO - Update id=837824849 is handled. Duration 811 ms by bot id=8156560781
+2025-04-03 23:48:00,301 - aiogram.event - INFO - Update id=837824850 is handled. Duration 250 ms by bot id=8156560781
+2025-04-03 23:48:02,051 - aiogram.event - INFO - Update id=837824851 is handled. Duration 437 ms by bot id=8156560781
+2025-04-03 23:48:03,729 - aiogram.event - INFO - Update id=837824852 is handled. Duration 281 ms by bot id=8156560781
+2025-04-03 23:48:07,077 - aiogram.event - INFO - Update id=837824853 is handled. Duration 125 ms by bot id=8156560781
+2025-04-03 23:48:50,329 - aiogram.event - INFO - Update id=837824854 is not handled. Duration 0 ms by bot id=8156560781
+2025-04-03 23:49:03,827 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-03 23:49:04,074 - aiogram.dispatcher - INFO - Polling stopped for bot @ScroogeMagnat_bot id=8156560781 - 'СКРУДЖ МАГНАТ | STARS'
+2025-04-03 23:49:08,661 - root - INFO - Бот запущен
+2025-04-03 23:49:08,661 - aiogram.dispatcher - INFO - Start polling
+2025-04-03 23:49:09,773 - aiogram.dispatcher - INFO - Run polling for bot @ScroogeMagnat_bot id=8156560781 - 'СКРУДЖ МАГНАТ | STARS'
+2025-04-03 23:50:02,433 - aiogram.event - INFO - Update id=837824855 is handled. Duration 2812 ms by bot id=8156560781
+2025-04-03 23:50:05,939 - aiogram.event - INFO - Update id=837824856 is handled. Duration 157 ms by bot id=8156560781
+2025-04-03 23:50:13,790 - aiogram.event - INFO - Update id=837824857 is handled. Duration 483 ms by bot id=8156560781
+2025-04-03 23:50:17,759 - aiogram.event - INFO - Update id=837824858 is not handled. Duration 0 ms by bot id=8156560781
+2025-04-03 23:50:19,862 - aiogram.event - INFO - Update id=837824859 is handled. Duration 281 ms by bot id=8156560781
+2025-04-03 23:50:20,854 - aiogram.event - INFO - Update id=837824860 is handled. Duration 156 ms by bot id=8156560781
+2025-04-03 23:50:23,999 - aiogram.event - INFO - Update id=837824861 is handled. Duration 266 ms by bot id=8156560781
+2025-04-03 23:50:25,731 - aiogram.event - INFO - Update id=837824862 is handled. Duration 203 ms by bot id=8156560781
+2025-04-03 23:52:19,315 - aiogram.event - INFO - Update id=837824863 is not handled. Duration 0 ms by bot id=8156560781
+2025-04-03 23:52:22,802 - aiogram.event - INFO - Update id=837824864 is handled. Duration 343 ms by bot id=8156560781
+2025-04-03 23:52:25,118 - aiogram.event - INFO - Update id=837824865 is handled. Duration 733 ms by bot id=8156560781
+2025-04-03 23:52:28,023 - aiogram.event - INFO - Update id=837824866 is handled. Duration 1546 ms by bot id=8156560781
+2025-04-03 23:52:50,323 - aiogram.event - INFO - Update id=837824867 is handled. Duration 2343 ms by bot id=8156560781
+2025-04-03 23:54:26,756 - aiogram.event - INFO - Update id=837824868 is handled. Duration 250 ms by bot id=8156560781
+2025-04-03 23:54:30,047 - aiogram.event - INFO - Update id=837824869 is handled. Duration 516 ms by bot id=8156560781
+2025-04-03 23:54:38,070 - aiogram.event - INFO - Update id=837824870 is handled. Duration 266 ms by bot id=8156560781
+2025-04-03 23:54:40,203 - aiogram.event - INFO - Update id=837824871 is handled. Duration 264 ms by bot id=8156560781
+2025-04-03 23:54:42,454 - aiogram.event - INFO - Update id=837824872 is handled. Duration 781 ms by bot id=8156560781
+2025-04-03 23:54:45,669 - aiogram.event - INFO - Update id=837824873 is handled. Duration 608 ms by bot id=8156560781
+2025-04-03 23:56:09,345 - aiogram.event - INFO - Update id=837824874 is handled. Duration 266 ms by bot id=8156560781
+2025-04-03 23:56:18,475 - aiogram.event - INFO - Update id=837824875 is handled. Duration 1485 ms by bot id=8156560781
+2025-04-03 23:56:19,534 - aiogram.event - INFO - Update id=837824876 is handled. Duration 905 ms by bot id=8156560781
+2025-04-03 23:56:21,362 - aiogram.event - INFO - Update id=837824877 is handled. Duration 296 ms by bot id=8156560781
+2025-04-04 00:02:12,437 - aiogram.event - INFO - Update id=837824878 is handled. Duration 657 ms by bot id=8156560781
+2025-04-04 00:02:17,783 - aiogram.event - INFO - Update id=837824879 is handled. Duration 171 ms by bot id=8156560781
+2025-04-04 00:02:21,253 - aiogram.event - INFO - Update id=837824880 is handled. Duration 1328 ms by bot id=8156560781
+2025-04-04 00:02:22,762 - aiogram.event - INFO - Update id=837824881 is handled. Duration 1015 ms by bot id=8156560781
+2025-04-04 00:02:27,181 - aiogram.event - INFO - Update id=837824882 is handled. Duration 421 ms by bot id=8156560781
+2025-04-04 00:02:53,478 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-04 00:02:53,746 - aiogram.dispatcher - INFO - Polling stopped for bot @ScroogeMagnat_bot id=8156560781 - 'СКРУДЖ МАГНАТ | STARS'
+2025-04-04 00:02:58,793 - root - INFO - Бот запущен
+2025-04-04 00:02:58,793 - aiogram.dispatcher - INFO - Start polling
+2025-04-04 00:02:59,255 - aiogram.dispatcher - INFO - Run polling for bot @ScroogeMagnat_bot id=8156560781 - 'СКРУДЖ МАГНАТ | STARS'
+2025-04-04 00:03:55,906 - aiogram.event - INFO - Update id=837824883 is handled. Duration 375 ms by bot id=8156560781
+2025-04-04 00:04:45,738 - aiogram.event - INFO - Update id=837824884 is handled. Duration 264 ms by bot id=8156560781
+2025-04-04 00:04:49,117 - aiogram.event - INFO - Update id=837824885 is handled. Duration 483 ms by bot id=8156560781
+2025-04-04 00:04:52,255 - aiogram.event - INFO - Update id=837824886 is handled. Duration 297 ms by bot id=8156560781
+2025-04-04 00:04:54,283 - aiogram.event - INFO - Update id=837824887 is handled. Duration 125 ms by bot id=8156560781
+2025-04-04 00:14:40,636 - aiogram.event - INFO - Update id=837824888 is handled. Duration 281 ms by bot id=8156560781
+2025-04-04 00:16:39,726 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-04 00:16:39,979 - aiogram.dispatcher - INFO - Polling stopped for bot @ScroogeMagnat_bot id=8156560781 - 'СКРУДЖ МАГНАТ | STARS'
+2025-04-04 00:16:49,688 - root - INFO - Бот запущен
+2025-04-04 00:16:49,688 - aiogram.dispatcher - INFO - Start polling
+2025-04-04 00:17:10,822 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-04 00:17:11,075 - root - ERROR - Ошибка в polling: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Указанное сетевое имя более недоступно]. Перезапуск через 5 секунд...
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 461, in finish_socket_func
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 64] Указанное сетевое имя более недоступно
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiohttp\connector.py", line 1122, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs, sock=sock)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1147, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1180, in _create_connection_transport
+    await waiter
+  File "C:\Program Files\Python312\Lib\asyncio\proactor_events.py", line 286, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 798, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 465, in finish_socket_func
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] Указанное сетевое имя более недоступно
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    async with session.post(
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiohttp\client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiohttp\connector.py", line 1400, in _create_direct_connection
+    raise last_exc
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiohttp\connector.py", line 1369, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiohttp\connector.py", line 1130, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Указанное сетевое имя более недоступно]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python_Projects\ScroogeMagnat_bot\main.py", line 37, in main
+    await dp.start_polling(bot)
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 551, in start_polling
+    await asyncio.gather(*done)
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 340, in _polling
+    user: User = await bot.me()
+                 ^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 325, in me
+    self._me = await self.get_me()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 1751, in get_me
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 184, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Указанное сетевое имя более недоступно]
+2025-04-04 00:17:16,115 - aiogram.dispatcher - INFO - Start polling
+2025-04-04 00:17:16,417 - aiogram.dispatcher - INFO - Run polling for bot @ScroogeMagnat_bot id=8156560781 - 'СКРУДЖ МАГНАТ | STARS'
+2025-04-04 00:17:34,182 - aiogram.event - INFO - Update id=837824889 is handled. Duration 562 ms by bot id=8156560781
+2025-04-04 00:17:35,816 - aiogram.event - INFO - Update id=837824890 is handled. Duration 312 ms by bot id=8156560781
+2025-04-04 00:17:36,892 - aiogram.event - INFO - Update id=837824891 is handled. Duration 140 ms by bot id=8156560781
+2025-04-04 00:18:35,143 - aiogram.event - INFO - Update id=837824892 is handled. Duration 187 ms by bot id=8156560781
+2025-04-04 00:18:54,429 - aiogram.event - INFO - Update id=837824893 is handled. Duration 125 ms by bot id=8156560781
+2025-04-04 00:19:50,568 - aiogram.event - INFO - Update id=837824894 is not handled. Duration 0 ms by bot id=8156560781
+2025-04-04 00:21:41,250 - aiogram.event - INFO - Update id=837824895 is handled. Duration 0 ms by bot id=8156560781
+2025-04-04 00:21:45,331 - aiogram.event - INFO - Update id=837824896 is handled. Duration 187 ms by bot id=8156560781
+2025-04-04 00:21:48,002 - aiogram.event - INFO - Update id=837824897 is handled. Duration 359 ms by bot id=8156560781
+2025-04-04 00:23:52,373 - aiogram.event - INFO - Update id=837824898 is handled. Duration 437 ms by bot id=8156560781
+2025-04-04 00:24:03,237 - aiogram.event - INFO - Update id=837824899 is handled. Duration 203 ms by bot id=8156560781
+2025-04-04 00:24:03,602 - aiogram.event - INFO - Update id=837824900 is handled. Duration 218 ms by bot id=8156560781
+2025-04-04 00:31:04,302 - aiogram.event - INFO - Update id=837824901 is handled. Duration 250 ms by bot id=8156560781
+2025-04-04 00:31:08,559 - aiogram.event - INFO - Update id=837824902 is handled. Duration 141 ms by bot id=8156560781
+2025-04-04 00:36:13,996 - aiogram.event - INFO - Update id=837824903 is handled. Duration 109 ms by bot id=8156560781
+2025-04-04 00:36:16,163 - aiogram.event - INFO - Update id=837824904 is handled. Duration 264 ms by bot id=8156560781
+2025-04-04 00:57:33,542 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2025-04-04 00:57:33,543 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8156560781)
+2025-04-04 00:57:34,571 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2025-04-04 00:57:34,571 - aiogram.dispatcher - WARNING - Sleep for 1.226312 seconds and try again... (tryings = 1, bot id = 8156560781)
+2025-04-04 01:05:49,477 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-04 01:05:49,477 - aiogram.dispatcher - WARNING - Sleep for 1.651883 seconds and try again... (tryings = 2, bot id = 8156560781)
+2025-04-04 01:06:12,154 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-04-04 01:06:12,154 - aiogram.dispatcher - WARNING - Sleep for 2.110342 seconds and try again... (tryings = 3, bot id = 8156560781)
+2025-04-04 01:06:34,113 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-04 01:06:34,377 - aiogram.dispatcher - INFO - Polling stopped for bot @ScroogeMagnat_bot id=8156560781 - 'СКРУДЖ МАГНАТ | STARS'
+2025-04-04 01:06:38,491 - root - INFO - Бот запущен
+2025-04-04 01:06:38,491 - aiogram.dispatcher - INFO - Start polling
+2025-04-04 01:06:53,981 - aiogram.dispatcher - INFO - Run polling for bot @ScroogeMagnat_bot id=8156560781 - 'СКРУДЖ МАГНАТ | STARS'
+2025-04-04 01:06:54,158 - aiogram.event - INFO - Update id=837824907 is not handled. Duration 14 ms by bot id=8156560781
+2025-04-04 01:07:04,481 - aiogram.event - INFO - Update id=837824913 is handled. Duration 3546 ms by bot id=8156560781
+2025-04-04 01:07:04,934 - aiogram.event - INFO - Update id=837824915 is handled. Duration 1562 ms by bot id=8156560781
+2025-04-04 01:07:07,227 - aiogram.event - INFO - Update id=837824916 is handled. Duration 250 ms by bot id=8156560781
+2025-04-04 01:07:15,199 - root - ERROR - Ошибка при отправке сообщения админу 7403767874: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Указанное сетевое имя более недоступно]
+2025-04-04 01:07:15,401 - aiogram.event - INFO - Update id=837824911 is handled. Duration 21250 ms by bot id=8156560781
+2025-04-04 01:07:15,505 - aiogram.event - INFO - Update id=837824908 is handled. Duration 21359 ms by bot id=8156560781
+2025-04-04 01:07:15,604 - aiogram.event - INFO - Update id=837824905 is handled. Duration 21468 ms by bot id=8156560781
+2025-04-04 01:07:17,246 - aiogram.event - INFO - Update id=837824912 is handled. Duration 21203 ms by bot id=8156560781
+2025-04-04 01:07:22,532 - aiogram.event - INFO - Update id=837824914 is not handled. Duration 21061 ms by bot id=8156560781
+2025-04-04 01:07:22,532 - aiogram.event - ERROR - Cause exception while process update id=837824914 by bot id=8156560781
+TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Указанное сетевое имя более недоступно]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 461, in finish_socket_func
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 64] Указанное сетевое имя более недоступно
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiohttp\connector.py", line 1122, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs, sock=sock)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1147, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1180, in _create_connection_transport
+    await waiter
+  File "C:\Program Files\Python312\Lib\asyncio\proactor_events.py", line 286, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 798, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 465, in finish_socket_func
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] Указанное сетевое имя более недоступно
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    async with session.post(
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiohttp\client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiohttp\connector.py", line 1400, in _create_direct_connection
+    raise last_exc
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiohttp\connector.py", line 1369, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiohttp\connector.py", line 1130, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Указанное сетевое имя более недоступно]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\handlers\start.py", line 349, in callback_back_to_main
+    await callback.message.edit_text(text, reply_markup=inline_kb)
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_Projects\ScroogeMagnat_bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 184, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Указанное сетевое имя более недоступно]
+2025-04-04 01:07:30,549 - aiogram.event - INFO - Update id=837824906 is handled. Duration 36406 ms by bot id=8156560781
+2025-04-04 01:07:30,611 - aiogram.event - INFO - Update id=837824909 is handled. Duration 36453 ms by bot id=8156560781
+2025-04-04 01:07:30,613 - aiogram.event - INFO - Update id=837824910 is handled. Duration 36453 ms by bot id=8156560781
+2025-04-04 01:09:38,138 - aiogram.event - INFO - Update id=837824917 is handled. Duration 250 ms by bot id=8156560781
+2025-04-04 01:10:18,495 - aiogram.event - INFO - Update id=837824918 is handled. Duration 125 ms by bot id=8156560781
