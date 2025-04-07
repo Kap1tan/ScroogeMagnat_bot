@@ -1,4 +1,4 @@
-BOT_TOKEN = "8156560781:AAENPwDdQL0AUhCxGOaPY7th26CuQm9AddQ"
+BOT_TOKEN = ""
 ADMIN_IDS = [7403767874, 804644988]  # Замените на ID администраторов
 REFERRALS_FILE = "data/referrals.json"
 USERS_FILE = "data/users.json"
